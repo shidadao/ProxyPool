@@ -50,3 +50,7 @@ def get_proxy():
     except ConnectionError:
         return None
 ```
+
+##注意：
+本代理池的提取url为'http://localhost:5555/random' 
+
